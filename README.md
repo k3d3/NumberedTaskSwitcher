@@ -12,10 +12,10 @@ To show a window that was assigned to a slot, press `Alt+Slot`, where Slot is th
 
 ## Example
 In case the above paragraphs aren't clear enough, try this example:
-1.   Find your browser, make sure it's the active window.
-2.   Press Alt+Shift+0
-3.   Now open up another program.
-4.   Press Alt+Shift+1
+- Find your browser, make sure it's the active window.
+- Press Alt+Shift+0
+- Now open up another program.
+- Press Alt+Shift+1
 
 Now, when you press Alt+0, the browser will become active, and when you press Alt+1, the other program will become active.
 
