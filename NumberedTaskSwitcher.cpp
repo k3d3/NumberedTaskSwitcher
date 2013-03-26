@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <Windows.h>
 
-int main(int argc, char ** argv) {
+int main() {
     int i, slot;
     MSG msg = {0};
     HWND window_handles[10];
@@ -52,4 +52,8 @@ int main(int argc, char ** argv) {
             }
         }
     }
+}
+
+int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+    main();
 }
